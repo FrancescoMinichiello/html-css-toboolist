@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*Generics*/
@@ -26,7 +27,6 @@ header {
 
 h1 {
     display: inline;
-    font-family: sans-serif;
     vertical-align: top;
 }
 
@@ -39,25 +39,65 @@ h1 {
     margin: 0 auto;
     border-radius: 5px;
     line-height: 60px;
+}
 
-    /*Button*/
+.container {
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 50px;
+}
 
-    button {
-        border: 1px solid black;
-        border-radius: 5px;
-        text-align: center;
-        padding: 5px;
-        vertical-align: text-bottom;
-    }
+/*Button*/
 
-    .button-add-task {
-        margin-left: 20px;
-        background-color: #00ACEC;
-        color: white;
-    }
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    vertical-align: text-bottom;
+}
 
-    .button-add-section {
-        background-color: transparent;
-        color: rgb(114, 114, 114);
-    }
+.button-add-task {
+    margin-left: 20px;
+    background-color: #00ACEC;
+    color: white;
+}
+
+.button-add-section {
+    background-color: transparent;
+    color: rgb(114, 114, 114);
+}
+
+/*List*/
+
+ul {
+    list-style-type: none;
+    margin: 15px;
+}
+
+li .circle::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li .circle.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+li .circle.delete::before {
+    content: '\2573';
+    border: 1px solid #ff0000;
+    color: #ff0000;
 }
