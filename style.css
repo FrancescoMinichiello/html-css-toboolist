@@ -1,0 +1,30 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+
+body {
+    background-color: lightgray;
+}
+
+/*Header*/
+
+header {
+    height: 75px;
+    background-color: white;
+    line-height: 75px;
+}
+
+#logo {
+    margin: 10px 0px 10px 10px;
+}
+
+h1 {
+    display: inline;
+    font-family: sans-serif;
+    vertical-align: top;
+}
