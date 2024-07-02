@@ -17,6 +17,7 @@ header {
     height: 75px;
     background-color: white;
     line-height: 75px;
+    margin-bottom: 30px;
 }
 
 #logo {
@@ -27,4 +28,36 @@ h1 {
     display: inline;
     font-family: sans-serif;
     vertical-align: top;
+}
+
+/*Body*/
+
+.add-task {
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    line-height: 60px;
+
+    /*Button*/
+
+    button {
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+        vertical-align: text-bottom;
+    }
+
+    .button-add-task {
+        margin-left: 20px;
+        background-color: #00ACEC;
+        color: white;
+    }
+
+    .button-add-section {
+        background-color: transparent;
+        color: rgb(114, 114, 114);
+    }
 }
