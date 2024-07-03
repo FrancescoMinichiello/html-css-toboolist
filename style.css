@@ -123,10 +123,6 @@ li .circle.delete::before {
     background-color: rgb(59, 145, 59);
 }
 
-.orange-color {
-    background-color: orange;
-}
-
 .purple-color {
     background-color: rgb(233, 55, 218);
 }
